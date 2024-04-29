@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>creating forms using table -task3</h1>
+    <center><h2>Sign Up Form</h2></center>
+    <form>
+        <table>
+            <tr>
+                <td>
+                   <label for="fname">Full Name:</label> 
+                </td>
+                <td>
+                    <input type="text" id="fname" placeholder="First Name">
+                </td>
+                <td>
+                    <input type="text" id="fname" placeholder="Last Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="username">Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="username" placeholder="Username">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">E-Mail:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" placeholder="ranjith2@gmail.com">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td colspan="2">
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Address:</label>
+                </td>
+                <td>
+                    <input type="text" id="address" placeholder="full address">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="number">Phone Number:</label>
+                </td>
+                <td>
+                    <input type="tel" id="number" placeholder="xxx xxxx xxx" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">
+                    Terms and Conditions<br>
+                    <fieldset>
+                        1.Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cupiditate, consequuntur necessitatibus excepturi eveniet eaque, dolores molestias numquam animi est <br>
+                        2.Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, repellendus odit obcaecati assumenda autem minus dolore ut quos<br>
+                        3.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, tempore? Est accusantium corporis distinctio commodi <br>
+                        <input type="radio" id="terms">
+                        <label for="terms">Accept terms and Conditions</label>
+                    </fieldset>
+                </th>
+            </tr>
+
+        </table>
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

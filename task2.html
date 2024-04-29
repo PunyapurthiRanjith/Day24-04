@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>Workshop Registration</th>
+                <td>
+                    <select>
+                        <option>More actions</option>
+                        <option>something1</option>
+                        <option>something2</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <u>Register now while seats are available!</u><br><br>
+    <form>
+        <table>
+        <tr>
+            <td>
+                <label for="fname">First Name</label>
+            </td>
+            <td>
+                <input type="text" id="fname">
+            </td>
+            <td rowspan="2">
+                <u>Lunch</u><br>
+                <label>Meal Preference</label>
+            </td>
+
+            <td rowspan="2">
+                <select>
+                    <option>Vegetarian</option>
+                    <option>Non-vegetarian</option>
+                </select>
+            </td>
+        </tr>
+
+            <tr>
+                <td>
+                    <label for="lname">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="lname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="company">company institution</label>
+                </td>
+                <td>
+                    <input type="text" id="company">
+                </td>
+                <td>
+                    <u>Payment Details</u><br>
+                    <label>Payment mode</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="cash">
+                    <label for="cash">cash</label><br>
+                    <input type="checkbox"  id="cheque">
+                    <label for="cheque"> cheque</label><br>
+                    <input type="checkbox" id="demand">
+                    <label for="demand">Demand Draft</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Address</label>
+                </td>
+                <td>
+                    <textarea cols="20" rows="10"></textarea>
+                </td>
+                <td>
+                    <label for="dd">DD/Cheque number</label>
+                </td>
+                <td>
+                    <input type="number" id="dd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <input type="text" id="city">
+                </td>
+                <td>
+                    <label for="drawn">Drawn on(Bank Name)</label>
+                </td>
+                <td>
+                    <input type="text" id="drawn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="region">State/ Province/ Region</label>
+                </td>
+                <td>
+                    <select id="region">
+                        <option>-select-</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Khammam">Khammam</option>
+                        <option value="Warangal">Warangal</option>
+                        <option value="Karimnagar">Karimnagar</option>
+                        <option value="Secunderabad">Secunderabad</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="pay">Patable at</label>
+                </td>
+                <td>
+                    <input type="text" id="pay">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <select id="country">
+                        <option>-select-</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Srilanka">Srilanka</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone Number</label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                  <center>
+                    <input type="submit">
+                    <input type="reset">
+                  </center>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
